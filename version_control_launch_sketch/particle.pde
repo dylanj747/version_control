@@ -7,6 +7,7 @@ class Particle {
   float color2 = random(0, 255);
   float color3 = random(0, 255);
   
+  
   Particle(float x, float y){
     position = new PVector(x, y);
     velocity = new PVector(random(-2, 2), random(-2, 2));
